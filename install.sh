@@ -1,8 +1,8 @@
 yum -y install git wget vim  net-tools sqlite-devel psmisc ncurses-devel libtermcap-devel newt-devel libxml2-devel libtiff-devel gtk2-devel libtool libuuid-devel subversion kernel-devel crontabs cronie-anacron libedit libedit-devel git usb_modeswitch* usbutils
-yum install asterisk16-devel
-cd /home/asterisk/asterisk_dongle/install
+yum -y install asterisk16-devel
+cd /home/asterisk/asterisk_dongle/
 git clone https://github.com/wdoekes/asterisk-chan-dongle.git
-cd /home/asterisk/asterisk_dongle/install/asterisk-chan-dongle
+cd /home/asterisk/asterisk_dongle/
 ./bootstrap
 ./configure --with-astversion=16.24.1
 make
