@@ -2,9 +2,9 @@ yum -y install git wget vim  net-tools sqlite-devel psmisc ncurses-devel libterm
 yum -y install asterisk16-devel
 cd /home/asterisk/asterisk_dongle/
 git clone https://github.com/wdoekes/asterisk-chan-dongle.git
-cd /home/asterisk/asterisk_dongle/
-./bootstrap
-./configure --with-astversion=16.24.1
+cd /home/asterisk/asterisk_dongle/asterisk-chan-dongle
+/home/asterisk/asterisk_dongle/asterisk-chan-dongle/bootstrap
+/home/asterisk/asterisk_dongle/asterisk-chan-dongle/configure --with-astversion=16.24.1
 make
 make install
 touch /etc/asterisk/dongle.conf
