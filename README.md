@@ -35,3 +35,14 @@ unpack the modem files folder install the 3G modem driver open the Huawei Termin
 2) AT+CPMS="ME","ME","ME"
 3) AT+CMGD=1,4
 4) AT^SYSCFG=13,2,00000080,1,2 (if the modem did not respond correctly, then use the combination AT^SYSCFG=13,1,00000080,1,2)
+
+After installing and configuring the modem, check:
+
+[root@freepbx ~]#asterisk -vrrr
+
+freepbx*CLI> dongle show devices
+ID           Group State      RSSI Mode Submode Provider Name  Model      Firmware          IMEI             IMSI             Number
+GSM          0     Free       17   0    0       Vodafone UA    E1550      11.608.12.00.143  353142035180556  255011676320550  Unknown
+
+
+
