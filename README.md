@@ -3,6 +3,7 @@ Tested on the FreeBPX assembly downloaded from the official website https://www.
 after installation is complete, check your version of asterisk (tested on version 16.24.1)
 
 [root@freepbx ~]#asterisk -vrrr
+
 Asterisk 16.24.1
 
 install
