@@ -19,6 +19,8 @@ if your version of asterisk is different from 16.24.1, before installation, edit
 
 [root@freepbx ~]#/home/asterisk/asterisk_dongle/install.sh
 
+after installation, restart the system
+
 Modem support
 huawei e1550
 huawei e173
