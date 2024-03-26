@@ -1,9 +1,8 @@
 yum -y install git wget vim  net-tools sqlite-devel psmisc ncurses-devel libtermcap-devel newt-devel libxml2-devel libtiff-devel gtk2-devel libtool libuuid-devel subversion kernel-devel crontabs cronie-anacron libedit libedit-devel git usb_modeswitch* usbutils
 yum install asterisk16-devel
-mkdir /home/asterisk/install
-cd /home/asterisk/install
+cd /home/asterisk/asterisk_dongle/install
 git clone https://github.com/wdoekes/asterisk-chan-dongle.git
-cd asterisk-chan-dongle
+cd /home/asterisk/asterisk_dongle/install/asterisk-chan-dongle
 ./bootstrap
 ./configure --with-astversion=16.24.1
 make
@@ -23,7 +22,7 @@ interval=15
 
 [GSM]
 imei=353142035180556
-;exten=+380630000000
+;exten=+380632970778
 
 [defaults]
 context=from-trunk
