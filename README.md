@@ -9,6 +9,7 @@ Asterisk 16.24.1
 install
 
 [root@freepbx ~]#cd /home/asterisk/
+
 [root@freepbx ~]#git clone https://github.com/CCbIKATHO/asterisk_dongle.git
 
 if your version of asterisk is different from 16.24.1, before installation, edit the install.sh file indicating your version in line 8
