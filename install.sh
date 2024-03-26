@@ -23,7 +23,7 @@ interval=15
 
 [GSM]
 imei=353142035180556
-;exten=+380632970778
+;exten=+380630000000
 
 [defaults]
 context=from-trunk
