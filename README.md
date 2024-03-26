@@ -41,6 +41,7 @@ After installing and configuring the modem, check:
 [root@freepbx ~]#asterisk -vrrr
 
 freepbx*CLI> dongle show devices
+
 ID           Group State      RSSI Mode Submode Provider Name  Model      Firmware          IMEI             IMSI             Number
 GSM          0     Free       17   0    0       Vodafone UA    E1550      11.608.12.00.143  353142035180556  255011676320550  Unknown
 
