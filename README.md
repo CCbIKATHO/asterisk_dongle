@@ -7,7 +7,7 @@ after installation is complete, check your version of asterisk (tested on versio
 Asterisk 16.24.1
 
 install
-[root@freepbx ~]#yum install git
+[root@freepbx ~]#yum -y install git
 
 [root@freepbx ~]#cd /home/asterisk/
 
